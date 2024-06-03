@@ -1,4 +1,6 @@
 {
-    "account_id": "serdardevnew.testnet",
-    "private_key": "2JKdWhKWAJ4v1vnCcJW7C7TEuwLYT4oMHW3nxfzQFrfb4dk4PKDkGjYVjTJFYABK2PaJRCqHRLEVm75oiUyUBo4z"
+    "account1_id": "serdardevnew.testnet",
+    "account2_id": "newtestdev.testnet",
+    "private1_key": "2JKdWhKWAJ4v1vnCcJW7C7TEuwLYT4oMHW3nxfzQFrfb4dk4PKDkGjYVjTJFYABK2PaJRCqHRLEVm75oiUyUBo4z",
+    "private2_key": "3oGdNEpRFpp19kifBa5pDNSU3dNWPrXZRtynhPAicR8SsXHg3DXSwiftuCJ9cc6eFpfVPGq98jTh1Rpg73yuCb3y"
   }

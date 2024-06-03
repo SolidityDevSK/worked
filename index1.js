@@ -9,8 +9,8 @@ const keyData = JSON.parse(fs.readFileSync(keyFile, "utf-8"));
 
 // InMemoryKeyStore oluşturma ve anahtarları ekleme
 const keyStore = new keyStores.InMemoryKeyStore();
-const keyPair = KeyPair.fromString(keyData.private1_key);
-keyStore.setKey("default", keyData.account1_id, keyPair);
+const keyPair = KeyPair.fromString(keyData.private2_key);
+keyStore.setKey("default", keyData.account2_id, keyPair);
 
 // NEAR ağını özel RPC ile yapılandırma
 const config = {
@@ -64,8 +64,8 @@ async function createTransaction(senderAccountId, receiverAccountId, amount) {
 }
 
 // Örnek kullanımı
-const senderAccountId = keyData.account1_id; // JSON dosyasındaki hesap kimliğini kullanıyoruz
-const receiverAccountId = keyData.account2_id;
+const senderAccountId = keyData.account2_id; // JSON dosyasındaki hesap kimliğini kullanıyoruz
+const receiverAccountId = keyData.account1_id;
 const amount = "1000000000000000000000"; // 1 NEAR (10^24 yoctoNEAR)
 
 setInterval(() => {
