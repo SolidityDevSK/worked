@@ -20,7 +20,7 @@ const config = {
   walletUrl: "https://wallet.testnet.near.org",
   helperUrl: "https://helper.testnet.near.org",
   explorerUrl: "https://explorer.testnet.near.org",
-  providers:"https://near-testnet.lava.build/lava-referer-e4e320ce-8c17-4ab6-bdca-8b66ad6f65e8/"
+  providers:"https://near-testnet.lava.build/lava-referer-3650aed7-0dbd-44d6-a6a5-c6c63951ae4f/"
 };
 
 // Bağlantıyı başlatma
